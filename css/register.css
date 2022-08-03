@@ -1,0 +1,150 @@
+
+.global_header {
+    background-color: #171A21;
+    height: 104px;
+}
+
+.main-header {
+    position: relative;
+    width: 940px;
+    height: 104px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.logo-image {
+    width: 176px;
+    height: 44px;
+    margin-top: 30px;
+    float: left;
+}
+
+.logo-image img {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.superanv {
+    float: left;
+}
+
+.superanv a {
+    float: left;
+    color: rgb(184, 182, 180);
+    font-size: 14px;
+}
+
+.superanv>ul {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.superanv>ul>li {
+    width: 42px;
+
+}
+
+.global-menue {
+    position: absolute;
+    width: 230px;
+    height: 25px;
+    top: 5px;
+    right: 0px;
+}
+.no{
+    color: rgb(237, 59, 59);
+}
+#selProvince{
+    height: 22px;
+    width: 100px;
+}
+#selCity{
+    height: 22px;
+    width: 100px;
+}
+.global-action {
+    width: 120px;
+    height: 100%;
+    background-color: rgb(92, 126, 16);
+    margin-right: 0px;
+    float: left;
+}
+
+.global-action>a {
+    line-height: 25px;
+    width: 87px;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #e5e4dc;
+
+}
+.global-action>a:hover{
+    color: #b9b9b9;
+}
+.global-action>img {
+    width: 20px;
+}
+
+.login-action {
+    float: left;
+    width: 110px;
+    text-align: center;
+    color: rgb(184, 182, 180);
+    font-size: 12px;
+}
+
+.login-action a {
+    line-height: 25px;
+    width: 55px;
+    color: rgb(184, 182, 180);
+    font-size: 12px;
+}
+
+h1,
+span {
+    color: #E9E9E9;
+}
+
+body {
+    background-color: #212429;
+    background-repeat: no-repeat;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.tab {
+    color: gray;
+    padding: 50px;
+    padding-left: 150px;
+}
+
+.form-group {
+    width: 40%;
+    margin: 20px 0px;
+    /* color: rebeccapurple; */
+}
+
+.checkbox {
+    margin: 25px 0px;
+
+}
+
+.tab input {
+    background-color: #3c4047;
+    border: none;
+    color: #E9E9E9;
+}
+
+.tab select {
+    background-color: #3c4047;
+    border: none;
+    color: #E9E9E9;
+}
+
+.tab button {
+    color: #E9E9E9;
+    background: -webkit-linear-gradient(right, #3ca2f1, #2461d1);
+    width: 15%;
+    border: none;
+}

@@ -1,0 +1,1375 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="layform/layform.css">
+  <link rel="stylesheet" href="font/iconfont.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+
+</head>
+
+<body>
+  <div class="main">
+    <div id="global_header" class="container-fluid global_header">
+      <div class="container main-header">
+        <div class="logo-image">
+          <a href="">
+            <img src="images/logo_steam.svg" alt="">
+          </a>
+        </div>
+        <div class="superanv">
+          <ul>
+            <li>
+              <a href="#">商店</a>
+            </li>
+            <li>
+              <a href="">社区</a>
+            </li>
+            <li>
+              <a href="#">关于</a>
+            </li>
+            <li>
+              <a href="#">客服</a>s
+            </li>
+          </ul>
+        </div>
+        <div class="global-menue">
+          <div class="global-action">
+            <a href=""><span class="iconfont icon-xiazai"></span>&nbsp;&nbsp;安装steam</a>
+          </div>
+          <div class="login-action">
+            <a href="#" id="login_but">登录</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+            <a href="regster.html">注册</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid advercontant">
+      <div class="container advertisement" >
+        <span><img src="images/adver1.jpg" alt=""></span>
+        <div class="closeadverdiv">
+          <a class="iconfont icon-icon-arrow-left2 closeadver"></a>
+        </div>
+      </div>
+    </div>
+    <div id="mid-box" class="container-fluid">
+      <div class="container mid-box-sub">
+        <div class="row">
+          <!-- 左侧 -->
+          <div class="col-md-2 mid-box-left">
+            <img src="images/steamcards_promo_02.png" alt="">
+            <div>
+              <div class="mid_header">
+                礼物卡
+              </div>
+              <div class="mid_items">
+                <a class="mid_item" href="#">现已在 Steam 上推出</a>
+              </div>
+              <div class="mid_header">推荐</div>
+              <div class="mid_items">
+                <a class="mid_item" href="#"><span class="iconfont icon-friends"></span> 由好友推荐</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-tuijian"></span> 由鉴赏家推荐</a>
+                <a class="mid_item" href="#"><span class="iconfont tags"></span> 标签</a>
+              </div>
+
+              <div class="mid_header pad">探索队列</div>
+              <div class="mid_items">
+                <a class="mid_item" href="#"><span class="iconfont icon-tuijianren"></span> 推荐</a>
+                <a class="mid_item" href="recommend.html"><span class="iconfont icon-tianjia"></span> 新品</a>
+              </div>
+
+              <div class="mid_header pad">浏览分类</div>
+              <div class="mid_items">
+                <a class="mid_item" href="#"><span class="iconfont icon-31rexiao"></span> 热销商品</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-xinpin"></span> 新品</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-jijiangtuichu"></span> 即将推出</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-youhui"></span> 优惠</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-VR-01"></span> 虚拟现实</a>
+                <a class="mid_item" href="#"><span class="iconfont icon-youxishoubing"></span> 支持控制器</a>
+              </div>
+            </div>
+            <div>
+              <div class="mid_header">按类型浏览</div>
+              <div class="mid_items">
+                <a class="mid_item" href="#">免费游玩</a>
+                <a class="mid_item" href="#">休闲</a>
+                <a class="mid_item" href="#">体育</a>
+                <a class="mid_item" href="#">冒险</a>
+                <a class="mid_item" href="#">动作</a>
+                <a class="mid_item" href="#">大型多人在线</a>
+                <a class="mid_item" href="#">模拟</a>
+                <a class="mid_item" href="#">独立</a>
+                <a class="mid_item" href="#">竞速</a>
+                <a class="mid_item" href="#">策略</a>
+                <a class="mid_item" href="#">角色扮演</a>
+
+              </div>
+
+              <div class="mid_header pad">最近查看</div>
+              <div class="mid_items">
+                <a class="mid_item" href="#">Morbid: The Seven Acolytes</a>
+              </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="time_count">
+              优惠剩余时间
+              <div class="chang_time">
+
+              </div>
+            </div>
+
+          </div>
+          <!-- 中部 -->
+          <div class="col-md-8 mid-box-mid">
+            <div class="mid-box-top-bar">
+              <div class="store-navbar">
+                <ul>
+                  <li><a href="index.html">+您的商店</a>
+                    <div class="mydropdown yourshop_dropdown">
+                      <ul>
+                        <li><a href="">主页</a></li>
+                        <li><a href="">社区推荐</a></li>
+                        <li><a href="">最近查看过</a></li>
+                        <li><a href="">Steam鉴赏家</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="recommend.html">+新鲜推荐</a>
+                    <div class="mydropdown recommend_dropdown">
+                      <ul>
+                        <li><a href="">热销商品</a></li>
+                        <li><a href="">新品与热门商品</a></li>
+                        <li><a href="">当前特惠</a></li>
+                        <li><a href="">最近更新</a></li>
+                        <li><a href="">热门即将推出</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="kinds.html">+类别</a>
+                    <div class="mydropdown kind_dropdown">
+                      <div class="col-md-2">
+                        <ul>
+                          <li><a href="">免费开玩</a> </li>
+                          <li><a href="">试玩</a></li>
+                          <li><a href="">抢先体验</a></li>
+                          <li><a href="">支持控制器</a></li>
+                          <li><a href="">远程畅玩</a></li>
+                          <li><a href="">软件</a></li>
+                          <li><a href="">原声音轨</a></li>
+                          <li><a href="">VR作品</a></li>
+                          <li><a href="">VR硬件</a></li>
+                          <li><a href="">Steam Deck</a></li>
+                          <li><a href="">非常适合Deck</a></li>
+                          <li><a href="">maxOS</a></li>
+                          <li><a href="">SteamOS+Linux</a></li>
+                          <li><a href="">网吧游戏</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-5">
+                        <ul>
+                          <li><a href="">动作</a> </li>
+                          <li><a href="">角色扮演</a></li>
+                          <li><a href="">策略</a></li>
+                          <li><a href="">冒险及休闲</a></li>
+                          <li><a href="">冒险角色扮演</a></li>
+                          <li><a href="">动作类Rogue</a></li>
+                          <li><a href="">冒险角色扮演</a></li>
+                          <li><a href="">军事</a></li>
+                          <li><a href="">休闲</a></li>
+                          <li><a href="">平台及奔跑</a></li>
+                          <li><a href="">动作角色扮演</a></li>
+                          <li><a href="">卡牌及桌游</a></li>
+                          <li><a href="">冒险</a></li>
+                          <li><a href="">格斗及武术</a></li>
+                          <li><a href="">回合制</a></li>
+                          <li><a href="">即时战略</a></li>
+                          <li><a href="">冒险角色扮演</a></li>
+                          <li><a href="">清版动作</a></li>
+                          <li><a href="">团队制</a></li>
+                          <li><a href="">回合制策略</a></li>
+                          <li><a href="">剧情丰富</a></li>
+                          <li><a href="">第一人称射击</a></li>
+                          <li><a href="">日系角色扮演</a></li>
+                          <li><a href="">城市及定居点</a></li>
+                          <li><a href="">类银河战士恶魔城</a></li>
+                          <li><a href="">第三人称射击</a></li>
+                          <li><a href="">策略角色扮演</a></li>
+                          <li><a href="">塔防</a></li>
+                          <li><a href="">视觉小说</a></li>
+                          <li><a href="">街机及节奏</a></li>
+                          <li><a href="">类Rogue</a></li>
+                          <li><a href="">大战略及4X</a></li>
+                          <li><a href="">解密</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 dropright">
+                        <ul>
+                          <li><a href="">动漫</a> </li>
+                          <li><a href="">向死而生</a></li>
+                          <li><a href="">太空</a></li>
+                          <li><a href="">开放世界</a></li>
+                          <li><a href="">恐怖</a></li>
+                          <li><a href="">悬疑及推理</a></li>
+                          <li><a href="">生存</a></li>
+                          <li><a href="">科幻及赛博朋克</a></li>
+                          <li><a href="">单人</a></li>
+                          <li><a href="">合作</a></li>
+                          <li><a href="">在线竞技</a></li>
+                          <li><a href="">多人</a></li>
+                          <li><a href="">大型多人在线</a></li>
+                          <li><a href="">局域网</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="recommend.html">点数商店</a></li>
+                  <li><a href="news.html">新闻</a></li>
+                  <li><a href="recommend.html">实验室</a></li>
+                  <li>
+                    <div class="none-li">
+
+                    </div>
+                  </li>
+                  <li><a href="#">
+                      <form action="" class="search-form">
+                        <input type="text" class="search-input" placeholder="&nbsp;&nbsp;搜索">
+                        <button type="submit" class="searcg-button"></button>
+                      </form>
+                    </a></li>
+                </ul>
+              </div>
+              <div class="floor">
+                <div class="title-1">
+                  <h4>精选和推荐</h4>
+                </div>
+                <!-- 轮播图 -->
+                <div class="container-fluid lunbo">
+                  <a href="goods.html">
+                  <div id="carousel-example-generic" class="carousel slide lunbo" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    </ol>
+
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="images/1.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/2.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/3.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/4.jpg" alt="...">
+                        <div class="carousel-caption">
+                        </div>
+                      </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                      <span class="iconfont icon-icon-arrow-left2" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                      <span class="iconfont icon-icon-arrow-right2" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </a>
+                </div>
+              </div>
+
+              <div class="floor">
+                <div class="title-1">
+                  <h4>特别优惠</h4>
+                </div>
+                <!-- 产品展示 窗格 -->
+                <div class="container-fluid goods1">
+                  <div class="row">
+                    <div class="col-md-4 goods-left ">
+                      <div class="thumbnail thumbnail-bcg boxshadow">
+                        <img src="images/5.jpg" alt="...">
+                        <div class="caption">
+                          <h3>周末特惠</h3>
+                          <p>优惠截止时间：5 月 19 日 上午 1:00</p>
+                          <div class="discount_large">
+                            <div class="discount_pct">-20%</div>
+                            <div class="price">
+                              <div class="discount_original_price">￥ 80.00</div>
+                              <div class="discount_final_price">￥ 64.00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 ">
+                      <div class="thumbnail thumbnail-bcg boxshadow">
+                        <img src="images/6.jpg" alt="...">
+                        <div class="caption">
+                          <h3>周末特惠</h3>
+                          <p>优惠截止时间：5 月 19 日 上午 1:00</p>
+                          <div class="discount_large">
+                            <div class="discount_mid">最高可省 -75%</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 goods-right">
+
+                      <div class="thumbnail  thumbnail-bcg goods-right-top boxshadow">
+                        <img class="people_image" src="images/7.jpg" alt="">
+                        <div class="caption">
+                          <h5>今日特惠</h5>
+                          <div class="discount_large">
+                            <div class="discount_pct ">-50%</div>
+                            <div class="price">
+                              <div class="discount_original_price">￥ 80.00</div>
+                              <div class="discount_final_price">￥ 64.00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="thumbnail thumbnail-bcg goods-right-top boxshadow">
+                        <img class="people_image" src="images/8.jpg" alt="">
+                        <div class="caption">
+                          <h5>今日特惠</h5>
+                          <div class="discount_large">
+                            <div class="discount_pct">-30%</div>
+                            <div class="price">
+                              <div class="discount_original_price">￥ 80.00</div>
+                              <div class="discount_final_price">￥ 64.00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid takeunder">
+                  <a class="takeunder" href="goods.html">
+
+                  </a>
+                </div>
+              </div>
+              <div class="floor">
+                <div class="container-fluid Browse">
+                  <h4>浏览 STEAM</h4>
+                  <div class="button_container">
+                    <a href="#">新品</a>
+                    <a href="#">优惠</a>
+                    <a href="#">免费游戏</a>
+                    <a href="#">按用户标签</a>
+                  </div>
+                </div>
+                <div class="game_list">
+                  <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a> 新品与热门商品</a></li>
+                    <li role="presentation" class=""><a>热销商品</a></li>
+                    <li role="presentation"><a>热门即将推出</a></li>
+                  </ul>
+                  <div class="col-md-8 list_left">
+                    <div class="list_left_content">
+                      <div class="goods-left-top">
+
+                      </div>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.1.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.2.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.3.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.4.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.5.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.6.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.7.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.2.8.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="list_left_content">
+                      <div class="goods-left-top">
+
+                      </div>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69_schinese.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (1).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (2).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (3).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (4).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (5).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69 (6).jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/capsule_184x69.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="list_left_content">
+                      <div class="goods-left-top">
+
+                      </div>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.1.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.2.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.3.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.4.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.5.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.6.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.7.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                      <a class="tab_item" href="goods.html">
+                        <div class="tab_item_cap">
+                          <img src="./images/1.3.8.jpg" alt="">
+                        </div>
+                        <div class="tab_item_content">
+                          <div class="tab_item_name">
+                            Brigandine The Legend of Runersia
+                          </div>
+                          <div class="tab_item_details">
+                            <span class="win"></span>
+                            <div class="tab_item_top_tags">
+                              <span class="top_tag">策略</span>
+                              <span class="top_tag">回合战略</span>
+                              <span class="top_tag">回合制战术</span>
+                              <span class="top_tag">黑暗奇幻</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="dicount_block">
+                          <div class="dicount_pct">-15%</div>
+                          <div class="discount_prices">
+                            <div class="pre_price"><s>￥116.00</s></div>
+                            <div class="now_price">￥98.60</div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 list_right">
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/1.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/1.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/1.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/2.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/2.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/2.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/3.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/3.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/3.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/4.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/4.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/4.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/5.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/5.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/5.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/6.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/6.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/6.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/7.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/7.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/7.3.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="list_right_content">
+                      <h2>Brigandine The Legend of Runersia</h2>
+                      <div class="customer-say">
+                        <p>总体用户评测：</p>
+                        <p>好评 (47)</p>
+                      </div>
+                      <div class="tags">
+                        <a class="sub_tag" href="">策略</a>
+                        <a href="">回合战略</a>
+                        <a href="">回合制战术</a>
+                        <a href="">黑暗奇幻</a>
+                      </div>
+                      <div>
+                        <img src="./images/8.1.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/8.2.jpg" alt="">
+                      </div>
+                      <div>
+                        <img src="./images/8.3.jpg" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="floor">
+                <h4>热门VR游戏</h4>
+                <br>
+                <br>
+                <div class="container-fluid  slide_goods">
+                  <div class="slide_content">
+                    <img src="./images/slide1.jpg" alt="">
+                    <img src="./images/slide2.jpg" alt="">
+                    <img src="./images/slide3.jpg" alt="">
+                    <img src="./images/slide4.jpg" alt="">
+                    <img src="./images/slide5.jpg" alt="">
+                    <img src="./images/slide6.jpg" alt="">
+                    <img src="./images/slide7.jpg" alt="">
+                    <img src="./images/slide8.jpg" alt="">
+                    <img src="./images/slide1.jpg" alt="">
+                    <img src="./images/slide2.jpg" alt="">
+                    <img src="./images/slide3.jpg" alt="">
+                    <img src="./images/slide4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="floor">
+                <div class="broadcast">
+                  <h4>热门直播</h4>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="thumbnail thumbnail-bcg boxshadow">
+                        <img src="images/broadcast1.png" alt="...">
+                        <div class="caption">
+                          <span class="broadcast_text_left">Counter-Strike: Global Offensive</span>
+                          <span class="broadcast_text_right iconfont icon-zongrenshu">1100</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 ">
+                      <div class="thumbnail thumbnail-bcg boxshadow">
+                        <img src="images/broadcast2.png" alt="...">
+                        <div class="caption">
+                          <span>World of Tanks</span>
+                          <span class="broadcast_text_left">World of Tanks</span>
+                          <span class="broadcast_text_right iconfont icon-zongrenshu">1235</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 ">
+                      <div class="thumbnail thumbnail-bcg boxshadow">
+                        <img src="images/broadcast3.png" alt="...">
+                        <div class="caption">
+                          <span></span>
+                          <span class="broadcast_text_left">MONSTER HUNTER RISE</span>
+                          <span class="broadcast_text_right iconfont icon-zongrenshu">13</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+          <!-- 右侧 -->
+          <div class="col-md-2 mid-box-right">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 底部 -->
+    <div class="container-fluid botton_login">
+      <div class="container botton_login_content">
+        <a>正在寻找推荐？</a>
+        <div>
+          <p>登录以查看个性化推荐</p>
+          <br>
+          <br>
+        </div>
+        <a href="#" class="botton_login_button">
+          <span>登录</span>
+          <br>
+        </a>
+        <div class="botton_regster">
+          <p>或者<a href="#">注册</a>并免费加入 Steam</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid botton">
+      <div class="container botton_content">
+        <div class="footer_content">
+          <div class="botton_logo">
+            <img src="./images/footerLogo_valve_new.png" alt="">
+          </div>
+          <div class="botton_logo botton_text">
+            ©2022 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。所有的价格均已包含增值税（如适用）。
+            <a href="">隐私政策</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">法律信息</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">Steam
+              订户协议</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">退款</a>&nbsp;|&nbsp;<a href="">Cookie</a>
+          </div>
+          <div class="botton_right_logo">
+            <img src="./images/logo_steam_footer.png" alt="">
+          </div>
+        </div>
+        <div class="botton_logo botton_text about">
+          <a href="">关于 Valve</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">工作机会</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+            href="">Steamworks</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">Steam 分销</a>
+          &nbsp;&nbsp;|&nbsp;&nbsp;<a href="">客服</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a
+            href="">礼物卡</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=""> <img src="./images/ico_facebook.gif" alt="">
+            Steam</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=""> <img src="./images/ico_twitter.gif" alt=""> @steam</a>
+          <br>
+          <div class="authorname">
+            <a href="">制作人：SunnyDeer</a><br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" container-fluid foot"></div>
+    <!-- 登录弹窗 -->
+    <div id="login" class="login_bg">
+      <div class="container">
+        <div class="bool">
+          <h2>登录</h2>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Steam 账户名称</label>
+              <input type="text" class="form-control" id="exampleInputtext">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">密码</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-default">登录</button>
+          </form>
+          <a href="#" class="ts">忘记您的密码？</a>
+          <div id="myButton" class="close">
+            <span>x</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 蒙版 -->
+    <div id="mask" class="mask">
+
+    </div>
+    <ul class="floorNav">
+      <li>精选和推荐</li>
+      <li>特别优惠</li>
+      <li>浏览Steam</li>
+      <li>热门VR游戏</li>
+      <li>热门直播</li>
+    </ul>
+  </div>
+
+  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
